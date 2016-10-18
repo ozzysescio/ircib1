@@ -2,30 +2,61 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+        <a name="top"></a>
+        
+        @*epi*@
+        main search
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+            <div class="mdl-textfield__expandable-holder">
+                <input class="mdl-textfield__input" type="search" id="site-search" />
+                <label class="mdl-textfield__label" for="site-search">Search</label>
+            </div>
+        </div>
+        @*epi*@
+        
+        <footer class="android-footer mdl-mega-footer">
+            <div class="mdl-mega-footer--top-section">
+                <div class="mdl-mega-footer--left-section">
+                    <button class="mdl-mega-footer--social-btn"></button>
+                    &nbsp;
+                    <button class="mdl-mega-footer--social-btn"></button>
+                    &nbsp;
+                    <button class="mdl-mega-footer--social-btn"></button>
+                </div>
+                <div class="mdl-mega-footer--right-section">
+                    <a class="mdl-typography--font-light" href="#top">
+                        Back to Top
+                        <i class="material-icons">expand_less</i>
+                    </a>
+                </div>
+            </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+            <div class="mdl-mega-footer--middle-section">
+                <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
+                <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
+            </div>
+
+            <div class="mdl-mega-footer--bottom-section">
+                <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
+                    Versions
+                    <i class="material-icons">arrow_drop_up</i>
+                </a>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+                    <li class="mdl-menu__item">5.0 Lollipop</li>
+                    <li class="mdl-menu__item">4.4 KitKat</li>
+                    <li class="mdl-menu__item">4.3 Jelly Bean</li>
+                    <li class="mdl-menu__item">Android History</li>
+                </ul>
+                <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
+                    For Developers
+                    <i class="material-icons">arrow_drop_up</i>
+                </a>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+                    <li class="mdl-menu__item">App developer resources</li>
+                    <li class="mdl-menu__item">Android Open Source Project</li>
+                    <li class="mdl-menu__item">Android SDK</li>
+                    <li class="mdl-menu__item">Android for Work</li>
+                </ul>
+                <a class="android-link mdl-typography--font-light" href="">Blog</a>
+                <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
+            </div>

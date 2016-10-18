@@ -13,12 +13,17 @@ namespace ircib1.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Article()
         {
-            ViewBag.Message = "Your application description page.";
-
+            ViewBag.Message = "Article List.";
             return View();
         }
+        //public ActionResult About()
+        //{
+        //    ViewBag.Message = "Your application description page.";
+
+        //    return View();
+        //}
 
         public ActionResult Contact()
         {
